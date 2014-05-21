@@ -18,8 +18,7 @@ development:
   adapter: postgresql
   encoding: unicode
   database: NYC_development
-  pool: 5
-  username: 
+  pool: 5 
   password:
   host: 127.0.0.1
 
@@ -48,8 +47,7 @@ test:
   adapter: postgresql
   encoding: unicode
   database: NYC_test
-  pool: 5
-  username: 
+  pool: 5 
   password:
   host: 127.0.0.1
 
@@ -58,6 +56,5 @@ production:
   encoding: unicode
   database: NYC_production
   pool: 5
-  username:
   password:
   host: 127.0.0.1
