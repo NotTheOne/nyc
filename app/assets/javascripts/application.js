@@ -14,3 +14,9 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+function parallax() {
+		var parlx_1 = document.getElementById('prlx_1');
+		parlx_1.style.top = -(window.pageYOffset / 4)+'px';
+	}
+		window.addEventListener("scroll", parallax, false);
