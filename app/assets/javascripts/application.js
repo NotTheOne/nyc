@@ -15,8 +15,10 @@
 //= require turbolinks
 //= require_tree .
 
-function parallax() {
+	function parallax() {
 		var parlx_1 = document.getElementById('prlx_1');
+		var parlx_2 = document.getElementById('prlx_2');
 		parlx_1.style.top = -(window.pageYOffset / 4)+'px';
+		parlx_2.style.top = -(window.pageYOffset / 8)+'px';
 	}
-		window.addEventListener("scroll", parallax, false);
+		window.addEventListener("scroll", parallax, false); 
