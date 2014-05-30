@@ -1,14 +1,13 @@
 #container {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	min-height: 100%; /* This makes the background clip be as long as the whole text in the container */
-	margin: 50px;
-	padding: 50px;
+	margin: 100px;
+	padding: 25px;
 	position: absolute;
 	size: 100%;
 	text-align: justify;
 	max-width: 100%; /* Adjusts text to size of screen */
-	color: white;
-	border-width: 10px;
+	color: #C0C0C0;
 	background: black;
 	background-clip: border-box;
 }
@@ -58,4 +57,8 @@ h1 {
 
 .navbar .navbar-collapse {
 	text-align: center;
+}
+
+a:link, a:hover, a:visited, a:active{
+	color: #808080;
 }
