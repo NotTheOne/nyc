@@ -1,19 +1,22 @@
 #container {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	height: 2000px;
+	min-height: 100%; /* This makes the background clip be as long as the whole text in the container */
 	margin: 50px;
 	padding: 50px;
 	position: absolute;
 	size: 100%;
 	text-align: justify;
-	max-width: 100%; /* IS WHAT MAKES THE TEXT TO FIT THE SCREEN AT ALL TIMES */
+	max-width: 100%; /* Adjusts text to size of screen */
 	color: white;
+	border-width: 10px;
+	background: black;
+	background-clip: border-box;
 }
 
 body {
  margin: 0;
  padding: 0;
- background-image: url("http://im04.thewallpapers.org/photo/23037/New-York-Landscape.jpg");
+ background-image: url("nyc_pano.jpg");
  background-attachment: fixed;
  background-size: 100%;
  background-repeat:no-repeat;
@@ -55,8 +58,4 @@ h1 {
 
 .navbar .navbar-collapse {
 	text-align: center;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> first_branch
