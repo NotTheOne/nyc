@@ -7,6 +7,7 @@
 	size: 100%;
 	text-align: justify;
 	max-width: 100%; /* IS WHAT MAKES THE TEXT TO FIT THE SCREEN AT ALL TIMES */
+	color: white;
 }
 
 body {
@@ -18,9 +19,8 @@ body {
  background-repeat:no-repeat;
  display: compact;
  font: 13px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
- color: #484848;
- background-color: #000000;
  text-align: justify;
+ padding-top: 200px;
 }
 
 #prlx_1{
@@ -37,7 +37,7 @@ body {
 	width: 100%;
 	height: 1200px;
 	background-size: 100%;
-	opacity: 0.5;
+	opacity: 0.3;
 }
 
 h1 {
@@ -48,3 +48,11 @@ h1 {
 	font-size: 60px;
 }
 
+.navbar .navbar-nav {
+	display: inline-block;
+	float: none;
+}
+
+.navbar .navbar-collapse {
+	text-align: center;
+}
