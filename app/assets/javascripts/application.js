@@ -16,6 +16,7 @@
 //= require bootstrap/bootstrap
 //= require_tree .
 
+// Parallax images
 	function parallax() {
 		var parlx_1 = document.getElementById('prlx_1');
 		var parlx_2 = document.getElementById('prlx_2');
@@ -23,5 +24,6 @@
 		parlx_2.style.top = -(window.pageYOffset / 8)+'px';
 	}
 		window.addEventListener("scroll", parallax, false); 
+
 
 
